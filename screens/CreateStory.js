@@ -78,7 +78,7 @@ export default class CreateStory extends Component {
       Alert.alert(
         "Error",
         "Todos os campos são obrigatórios!",
-        [{ text: "OK", onPress: () => console.log("OK Pressed") }],
+        [{ text: "OK", onPress: () => console.log("OK Pressionado") }],
         { cancelable: false }
       );
     }
